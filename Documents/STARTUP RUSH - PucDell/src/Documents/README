@@ -1,0 +1,21 @@
+# STARTUP RUSH (PUC + DELL)
+## Startup Rush is a startup competition where startups compete in pairs until only one remains.
+he project is a Java-based console application that simulates a knockout tournament between startups. The user, acting as a judge, can register startups by providing their name, slogan, and year of foundation. The tournament can begin once at least four startups are registered, respecting the requirement for an even number of participants (up to a maximum of eight).
+The application randomly pairs startups for battles in each round. In each battle, the user selects which one to manage and can apply events that directly affect the startups' scores. The winning startup receives a 30-point bonus, and in case of a tie, a "Shark Fight" occurs to break the tie randomly.
+The system automatically progresses through the rounds until the champion startup is determined. At the end, a ranking is displayed with all startups ordered by final score, along with statistics such as number of pitches, bugs, traction, angry investors, and penalties.
+As an extra feature, a start menu was implemented allowing the user to start a new tournament, load a finished tournament, delete an existing one, or exit the application, making it easier to manage and reuse tournament data.
+
+
+### Features
+- [x] Startup registration
+- [x] Battle draw and tournament structure
+- [x] Individual battle management
+- [x] Automatic round advancement
+- [x] Reports and results
+- [x] EXTRA FEATURE (loading of previous battles)
+
+### How to use?
+If you have an environment ready to run Java 21, clone the project from GitHub and open it. Run the application from the `main` class.
+Locally saved data will be accessible when running the application.
+
+
